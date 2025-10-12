@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>My First Blog</title>
+</head>
+<body>
+<main>
+<article>
+<h2>My First Blog</h2>
+<p>
+Today I started my blog where I'll write short notes about projects and
+things I learn. This is a small step toward improving my writing and
+sharing knowledge.
+</p>
+</article>
+</main>
+</body>
+</html>
