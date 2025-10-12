@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Conference Schedule</title>
+</head>
+<body>
+  <header>
+    <h1>Annual Tech Conference 2025</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Schedule</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Session</th>
+            <th>Time</th>
+            <th>Topic</th>
+            <th>Speaker</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Morning</td>
+            <td>09:00 - 12:00</td>
+            <td>Keynote: The Future of AI</td>
+            <td>Dr. A. Kumar</td>
+          </tr>
+          <tr>
+            <td>Afternoon</td>
+            <td>13:30 - 16:30</td>
+            <td>Workshops: Cloud & DevOps</td>
+            <td>Ms. Iyer</td>
+          </tr>
+          <tr>
+            <td>Evening</td>
+            <td>17:00 - 19:00</td>
+            <td>Panel: Ethics in Tech</td>
+            <td>Multiple</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">Venue: Convention Center, Hall A | Registration desk opens at 08:00</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: conference@example.org</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Student Report</title>
+</head>
+<body>
+  <h1 title="Green Valley High School">Green Valley High School</h1>
+
+  <section>
+    <h2>Student: A. Sharma</h2>
+    <table border="1" title="Marks out of 100">
+      <thead>
+        <tr>
+          <th>Subject</th>
+          <th>Marks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mathematics</td>
+          <td>88</td>
+        </tr>
+        <tr>
+          <td>Physics</td>
+          <td>81</td>
+        </tr>
+        <tr>
+          <td>Chemistry</td>
+          <td>79</td>
+        </tr>
+        <tr>
+          <td>English</td>
+          <td>92</td>
+        </tr>
+        <tr>
+          <td>Computer Science</td>
+          <td>95</td>
+        </tr>
+        <tr>
+          <td colspan="1"><strong>Total</strong></td>
+          <td><strong>435</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Percentage</strong></td>
+          <td><strong>87%</strong></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</body>
+</html>

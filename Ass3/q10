@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Dropdown Selection</title>
+</head>
+<body>
+  <h1>Choose Your Preferences</h1>
+
+  <form>
+    <label for="country">Country:</label><br>
+    <select id="country" name="country">
+      <option value="india" selected>India</option>
+      <option value="usa">United States</option>
+      <option value="uk">United Kingdom</option>
+    </select><br><br>
+
+    <label for="state">State:</label><br>
+    <select id="state" name="state">
+      <option value="up" selected>Uttar Pradesh</option>
+      <option value="mh">Maharashtra</option>
+      <option value="dl">Delhi</option>
+    </select><br><br>
+
+    <label for="city">City:</label><br>
+    <select id="city" name="city">
+      <option value="bareilly" selected>Bareilly</option>
+      <option value="lucknow">Lucknow</option>
+      <option value="kanpur">Kanpur</option>
+    </select><br><br>
+
+    <label for="place">Favorite Tourist Place:</label><br>
+    <select id="place" name="place">
+      <option value="taj" selected>Taj Mahal</option>
+      <option value="goa">Goa Beaches</option>
+      <option value="manali">Manali</option>
+    </select><br><br>
+  </form>
+
+  <p>Summary: I live in <strong>Bareilly, Uttar Pradesh, India</strong> and my favorite tourist place is the <strong>Taj Mahal</strong>.</p>
+</body>
+</html>

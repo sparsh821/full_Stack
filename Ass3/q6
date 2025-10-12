@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Restaurant Menu</title>
+</head>
+<body>
+  <header>
+    <h1>Spice Garden</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#starters">Starters</a></li>
+      <li><a href="#main">Main Course</a></li>
+      <li><a href="#desserts">Desserts</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="starters">
+      <h2>Starters</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Dish Name</th>
+            <th>Description</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Samosa</td>
+            <td>Crispy pastry filled with spiced potatoes.</td>
+            <td>₹50</td>
+          </tr>
+          <tr>
+            <td>Paneer Tikka</td>
+            <td>Grilled paneer cubes with spices.</td>
+            <td>₹180</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="main">
+      <h2>Main Course</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Dish Name</th>
+            <th>Description</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Butter Chicken</td>
+            <td>Rich tomato gravy with tender chicken pieces.</td>
+            <td>₹320</td>
+          </tr>
+          <tr>
+            <td>Veg Biryani</td>
+            <td>Fragrant rice with mixed vegetables and spices.</td>
+            <td>₹220</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="desserts">
+      <h2>Desserts</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Dish Name</th>
+            <th>Description</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Gulab Jamun</td>
+            <td>Soft milk dumplings in sugar syrup.</td>
+            <td>₹80</td>
+          </tr>
+          <tr>
+            <td>Rasmalai</td>
+            <td>Cottage cheese patties in sweetened milk.</td>
+            <td>₹120</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: +91-98765-43210 | © 2025 Spice Garden</p>
+  </footer>
+</body>
+</html>

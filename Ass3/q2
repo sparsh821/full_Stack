@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Product Catalog</title>
+</head>
+<body>
+  <header>
+    <h1>Store Product Catalog</h1>
+  </header>
+
+  <main>
+    <table border="1">
+      <caption>Available Products</caption>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Description</th>
+          <th>Price</th>
+          <th>Availability</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img src="https://via.placeholder.com/100" alt="Product A">
+            <div>Classic Watch</div>
+          </td>
+          <td>Analog watch with leather strap.</td>
+          <td>₹2,499</td>
+          <td>In Stock</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2">
+            <img src="https://via.placeholder.com/100" alt="Product B">
+            <div>Wireless Earbuds</div>
+          </td>
+          <td>Noise-cancelling earbuds with charging case.</td>
+          <td>₹3,999</td>
+          <td>Limited</td>
+        </tr>
+
+        <tr>
+          <!-- Uses rowspan above, description continues -->
+          <td colspan="2">Bundle offer: 1-year warranty + free shipping.</td>
+          <td>Out of Stock</td>
+        </tr>
+
+        <tr>
+          <td>
+            <img src="https://via.placeholder.com/100" alt="Product C">
+            <div>Travel Backpack</div>
+          </td>
+          <td>30L water-resistant backpack with laptop sleeve.</td>
+          <td>₹1,899</td>
+          <td>In Stock</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>© 2025 Example Store</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio - John Doe</title>
+</head>
+<body>
+  <header>
+    <h1>John Doe</h1>
+    <p>Frontend Developer</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I build simple and accessible web interfaces.</p>
+      <blockquote>"Code is poetry."</blockquote>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript (ES6+)</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ol>
+        <li>Portfolio Website</li>
+        <li>Weather App</li>
+        <li>E-commerce Mock</li>
+      </ol>
+    </section>
+  </main>
+
+  <aside id="contact">
+    <h3>Contact Info</h3>
+    <p>Email: john.doe@example.com</p>
+    <p>Phone: +91-99999-99999</p>
+    <p><a href="https://www.linkedin.com/in/johndoe">LinkedIn</a></p>
+  </aside>
+
+  <footer>
+    <p>© 2025 John Doe. All rights reserved.</p>
+  </footer>
+</body>
+</html>
