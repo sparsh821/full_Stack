@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback</title>
+</head>
+<body>
+  <form method="post" action="#">
+    <textarea placeholder="Write feedback"></textarea><br>
+    <label><input type="radio" name="rate"> Good</label>
+    <label><input type="radio" name="rate"> Average</label>
+    <label><input type="radio" name="rate"> Poor</label><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

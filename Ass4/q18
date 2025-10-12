@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head><title>Quotes</title></head>
+<body>
+  <blockquote>“This is a long quotation using blockquote &amp; entity.”</blockquote>
+  <p>This is a short quote: <q>HTML is easy</q>.</p>
+</body>
+</html>

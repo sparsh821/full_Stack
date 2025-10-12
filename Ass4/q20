@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Title of the webpage -->
+  <title>Head Elements Demo</title>
+  
+  <!-- Character encoding -->
+  <meta charset="UTF-8">
+  
+  <!-- Description for SEO -->
+  <meta name="description" content="Demo page of head tags">
+  
+  <!-- Author info -->
+  <meta name="author" content="Your Name">
+  
+  <!-- Base URL for relative links -->
+  <base href="https://example.com/">
+  
+  <!-- Link to favicon -->
+  <link rel="icon" href="favicon.ico">
+  
+  <!-- Internal CSS -->
+  <style></style>
+  
+  <!-- JavaScript -->
+  <script></script>
+</head>
+<body>
+  <p>Check page source to see head tags.</p>
+</body>
+</html>
