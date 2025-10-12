@@ -1,0 +1,12 @@
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Span Labels</title>
+</head>
+<body>
+<p>
+<span>Label: Important</span> — <span>Tag: Draft</span> — <span>Status:
+Pending</span>
+</p>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Favorite Cartoon</title>
+</head>
+<body>
+<!-- Replace src with the actual image file path or URL -->
+<img src="spongebob.jpg" alt="SpongeBob SquarePants smiling" />
+</body>
+</html>
