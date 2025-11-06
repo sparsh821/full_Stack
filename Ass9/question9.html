@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design Principles Summary</title>
+    <link rel="stylesheet" href="question9.css">
+</head>
+<body>
+    <!-- Main container -->
+    <main>
+        <header>
+            <h1>Core Principles of Responsive Design</h1>
+            <p>Understanding the fundamentals of modern web development</p>
+        </header>
+        
+        <!-- Principles grid -->
+        <section class="principles-container">
+            <!-- Principle 1: Fluid Layouts -->
+            <article class="principle-box">
+                <h2>Fluid Layouts</h2>
+                <p class="definition">
+                    Use relative units like percentages and viewport units instead of fixed pixel values 
+                    to create layouts that adapt to different screen sizes.
+                </p>
+                <div class="code-example">
+                    <h3>Example:</h3>
+                    <code>
+                        .container {<br>
+                        &nbsp;&nbsp;width: 90%;<br>
+                        &nbsp;&nbsp;max-width: 1200px;<br>
+                        &nbsp;&nbsp;margin: 0 auto;<br>
+                        }
+                    </code>
+                </div>
+            </article>
+            
+            <!-- Principle 2: Flexible Media -->
+            <article class="principle-box">
+                <h2>Flexible Media</h2>
+                <p class="definition">
+                    Images and media should scale proportionally within their containers to prevent 
+                    overflow and maintain aspect ratios across devices.
+                </p>
+                <div class="code-example">
+                    <h3>Example:</h3>
+                    <code>
+                        img, video {<br>
+                        &nbsp;&nbsp;max-width: 100%;<br>
+                        &nbsp;&nbsp;height: auto;<br>
+                        &nbsp;&nbsp;display: block;<br>
+                        }
+                    </code>
+                </div>
+            </article>
+            
+            <!-- Principle 3: Breakpoints -->
+            <article class="principle-box">
+                <h2>Breakpoints</h2>
+                <p class="definition">
+                    Media queries define breakpoints where the layout adjusts to provide optimal 
+                    viewing experience for different screen sizes and devices.
+                </p>
+                <div class="code-example">
+                    <h3>Example:</h3>
+                    <code>
+                        @media (max-width: 768px) {<br>
+                        &nbsp;&nbsp;.grid {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;grid-template-columns: 1fr;<br>
+                        &nbsp;&nbsp;}<br>
+                        }
+                    </code>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

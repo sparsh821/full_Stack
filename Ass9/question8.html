@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Comparison Layout</title>
+    <link rel="stylesheet" href="question8.css">
+</head>
+<body>
+    <!-- Main container -->
+    <main>
+        <header>
+            <h1>Before & After Filter Comparison</h1>
+            <p>Hover over the filtered image to see the difference</p>
+        </header>
+        
+        <!-- Comparison container -->
+        <section class="comparison-container">
+            <!-- Original image -->
+            <article class="comparison-item">
+                <div class="image-wrapper">
+                    <img src="https://picsum.photos/600/400?random=13" alt="Original Image">
+                </div>
+                <figcaption>
+                    <h2>Before</h2>
+                    <p>Original image without any filters applied</p>
+                </figcaption>
+            </article>
+            
+            <!-- Filtered image -->
+            <article class="comparison-item filtered">
+                <div class="image-wrapper">
+                    <img src="https://picsum.photos/600/400?random=13" alt="Filtered Image">
+                </div>
+                <figcaption>
+                    <h2>After</h2>
+                    <p>Image with brightness and contrast filter applied (hover to remove)</p>
+                </figcaption>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

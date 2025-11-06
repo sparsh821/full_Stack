@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined Responsive Web Demo</title>
+    <link rel="stylesheet" href="question7.css">
+</head>
+<body>
+    <!-- Header with navigation using Flexbox -->
+    <header class="site-header">
+        <div class="logo">ResponsiveDemo</div>
+        <nav class="navigation">
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+            <a href="#cheatsheet">Cheat Sheet</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <!-- Main content using Grid -->
+    <main class="main-content">
+        <!-- Image Gallery Section -->
+        <section id="gallery" class="gallery-section">
+            <h2>Image Gallery</h2>
+            <div class="image-grid">
+                <figure class="gallery-item">
+                    <img src="https://picsum.photos/300/200?random=10" alt="Gallery Image 1">
+                    <figcaption>Scenic View</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="https://picsum.photos/300/200?random=11" alt="Gallery Image 2">
+                    <figcaption>Urban Life</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="https://picsum.photos/300/200?random=12" alt="Gallery Image 3">
+                    <figcaption>Nature Beauty</figcaption>
+                </figure>
+            </div>
+        </section>
+        
+        <!-- Responsive Design Explanation Section -->
+        <section id="about" class="explanation-section">
+            <h2>What is Responsive Design?</h2>
+            <p>
+                Responsive web design is an approach to web development that ensures websites adapt seamlessly 
+                to different screen sizes and devices. It uses flexible layouts, fluid images, and CSS media 
+                queries to create an optimal viewing experience across desktop, tablet, and mobile devices.
+            </p>
+            <p>
+                Key principles include fluid grids, flexible images, and media queries. These techniques allow 
+                content to reflow and adjust based on the available screen space, ensuring accessibility and 
+                usability for all users regardless of their device.
+            </p>
+        </section>
+        
+        <!-- Cheat Sheet Preview Section -->
+        <section id="cheatsheet" class="cheatsheet-section">
+            <h2>Quick Reference</h2>
+            <div class="cheatsheet-grid">
+                <article class="cheat-item">
+                    <h3>Flexbox</h3>
+                    <code>display: flex;</code>
+                </article>
+                <article class="cheat-item">
+                    <h3>Grid</h3>
+                    <code>display: grid;</code>
+                </article>
+                <article class="cheat-item">
+                    <h3>Media Query</h3>
+                    <code>@media (max-width: 768px)</code>
+                </article>
+                <article class="cheat-item">
+                    <h3>Clamp</h3>
+                    <code>clamp(1rem, 2vw, 2rem)</code>
+                </article>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer Section -->
+    <footer id="contact" class="site-footer">
+        <div class="footer-content">
+            <h3>Contact Information</h3>
+            <p>Email: info@responsivedemo.com</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>&copy; 2024 ResponsiveDemo. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

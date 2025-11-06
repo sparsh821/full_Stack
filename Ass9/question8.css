@@ -1,0 +1,159 @@
+/* Global reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #434343 0%, #000000 100%);
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+/* Header section */
+header {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 3rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Comparison container - desktop side-by-side */
+.comparison-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/* Individual comparison item */
+.comparison-item {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.comparison-item:hover {
+    transform: translateY(-10px);
+}
+
+/* Image wrapper */
+.image-wrapper {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Apply filter to the second image */
+.filtered .image-wrapper img {
+    filter: brightness(1.3) contrast(1.5);
+    transition: filter 0.5s ease;
+}
+
+/* Remove filter on hover */
+.filtered:hover .image-wrapper img {
+    filter: none;
+}
+
+/* Caption styling */
+figcaption {
+    padding: 1.5rem;
+    background: #f8f9fa;
+}
+
+figcaption h2 {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+figcaption p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* Add visual indicator for filtered image */
+.filtered figcaption {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.filtered figcaption h2,
+.filtered figcaption p {
+    color: #ffffff;
+}
+
+/* Responsive design - stack vertically below 700px */
+@media (max-width: 700px) {
+    .comparison-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .comparison-item {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .image-wrapper {
+        height: 300px;
+    }
+    
+    body {
+        padding: 1rem;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    header p {
+        font-size: 1rem;
+    }
+    
+    figcaption {
+        padding: 1.2rem;
+    }
+    
+    figcaption h2 {
+        font-size: 1.3rem;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 400px) {
+    .image-wrapper {
+        height: 250px;
+    }
+    
+    header h1 {
+        font-size: 1.6rem;
+    }
+}

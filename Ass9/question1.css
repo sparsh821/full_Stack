@@ -1,0 +1,110 @@
+/* Global reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Gallery grid container */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Individual gallery item */
+.gallery-item {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Image styling */
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: filter 0.5s ease;
+}
+
+/* Apply different filters to each image */
+.filter-blur img {
+    filter: blur(4px);
+}
+
+.filter-grayscale img {
+    filter: grayscale(100%);
+}
+
+.filter-sepia img {
+    filter: sepia(100%);
+}
+
+.filter-brightness img {
+    filter: brightness(1.5);
+}
+
+.filter-contrast img {
+    filter: contrast(200%);
+}
+
+.filter-hue img {
+    filter: hue-rotate(180deg);
+}
+
+/* Remove filter on hover */
+.gallery-item:hover img {
+    filter: none;
+}
+
+/* Caption styling */
+figcaption {
+    padding: 1rem;
+    text-align: center;
+    font-weight: 600;
+    color: #333;
+    background: #f8f9fa;
+}
+
+/* Mobile responsive - stack in single column below 600px */
+@media (max-width: 600px) {
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    body {
+        padding: 1rem;
+    }
+    
+    header h1 {
+        font-size: 1.8rem;
+    }
+}

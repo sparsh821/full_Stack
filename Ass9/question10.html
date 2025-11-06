@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dashboard Summary</title>
+    <link rel="stylesheet" href="question10.css">
+</head>
+<body>
+    <!-- Dashboard container using Grid -->
+    <div class="dashboard">
+        <!-- Header -->
+        <header class="dashboard-header">
+            <h1>Responsive Design Dashboard</h1>
+            <p>A comprehensive overview of CSS concepts</p>
+        </header>
+        
+        <!-- Sidebar -->
+        <aside class="dashboard-sidebar">
+            <h2>Navigation</h2>
+            <nav>
+                <a href="#filters">Filters</a>
+                <a href="#typography">Typography</a>
+                <a href="#media">Media Queries</a>
+                <a href="#cheatsheet">Cheat Sheet</a>
+            </nav>
+        </aside>
+        
+        <!-- Main Content -->
+        <main class="dashboard-content">
+            <!-- Filters Card -->
+            <article id="filters" class="dashboard-card">
+                <h2>CSS Filters</h2>
+                <p>Transform and enhance images with visual effects like blur, grayscale, and brightness adjustments.</p>
+                <code>filter: blur(5px) brightness(120%);</code>
+            </article>
+            
+            <!-- Typography Card -->
+            <article id="typography" class="dashboard-card">
+                <h2>Responsive Typography</h2>
+                <p>Create fluid text sizing that scales smoothly across all viewport sizes using clamp().</p>
+                <code>font-size: clamp(1rem, 2vw, 2rem);</code>
+            </article>
+            
+            <!-- Media Queries Card -->
+            <article id="media" class="dashboard-card">
+                <h2>Media Queries</h2>
+                <p>Apply different styles based on device characteristics like screen width and orientation.</p>
+                <code>@media (max-width: 768px) { ... }</code>
+            </article>
+            
+            <!-- Cheat Sheet Links Card -->
+            <article id="cheatsheet" class="dashboard-card">
+                <h2>Cheat Sheet Links</h2>
+                <p>Quick reference guides and resources for mastering responsive CSS techniques.</p>
+                <ul class="links-list">
+                    <li><a href="#flexbox">Flexbox Guide</a></li>
+                    <li><a href="#grid">Grid Layout Guide</a></li>
+                    <li><a href="#units">CSS Units Reference</a></li>
+                </ul>
+            </article>
+        </main>
+    </div>
+</body>
+</html>

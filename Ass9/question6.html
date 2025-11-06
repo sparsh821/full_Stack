@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive CSS Cheat Sheet</title>
+    <link rel="stylesheet" href="question6.css">
+</head>
+<body>
+    <!-- Main container -->
+    <main>
+        <header>
+            <h1>Responsive CSS Cheat Sheet</h1>
+            <p>Quick reference guide for responsive design concepts</p>
+        </header>
+        
+        <!-- Cheat sheet grid -->
+        <section class="cheat-sheet">
+            <!-- CSS Filters topic -->
+            <article class="topic-box">
+                <h2>CSS Filters</h2>
+                <p class="description">Apply visual effects to images and elements</p>
+                <code>filter: blur(5px);<br>filter: grayscale(100%);<br>filter: brightness(150%);</code>
+            </article>
+            
+            <!-- Media Queries topic -->
+            <article class="topic-box">
+                <h2>Media Queries</h2>
+                <p class="description">Apply styles based on screen size</p>
+                <code>@media (max-width: 768px) {<br>&nbsp;&nbsp;.element { display: block; }<br>}</code>
+            </article>
+            
+            <!-- Flexbox topic -->
+            <article class="topic-box">
+                <h2>Flexbox Layout</h2>
+                <p class="description">One-dimensional flexible box layout</p>
+                <code>display: flex;<br>justify-content: center;<br>align-items: center;</code>
+            </article>
+            
+            <!-- Grid Layout topic -->
+            <article class="topic-box">
+                <h2>Grid Layout</h2>
+                <p class="description">Two-dimensional grid-based layout</p>
+                <code>display: grid;<br>grid-template-columns: repeat(3, 1fr);<br>gap: 1rem;</code>
+            </article>
+            
+            <!-- Responsive Typography topic -->
+            <article class="topic-box">
+                <h2>Responsive Typography</h2>
+                <p class="description">Fluid font sizing with clamp()</p>
+                <code>font-size: clamp(1rem, 2vw, 2rem);<br>line-height: 1.6;</code>
+            </article>
+            
+            <!-- Viewport Units topic -->
+            <article class="topic-box">
+                <h2>Viewport Units</h2>
+                <p class="description">Sizing relative to viewport dimensions</p>
+                <code>width: 100vw;<br>height: 100vh;<br>font-size: 5vw;</code>
+            </article>
+            
+            <!-- Responsive Images topic -->
+            <article class="topic-box">
+                <h2>Responsive Images</h2>
+                <p class="description">Flexible images that scale properly</p>
+                <code>img {<br>&nbsp;&nbsp;max-width: 100%;<br>&nbsp;&nbsp;height: auto;<br>}</code>
+            </article>
+            
+            <!-- Breakpoints topic -->
+            <article class="topic-box">
+                <h2>Common Breakpoints</h2>
+                <p class="description">Standard screen size breakpoints</p>
+                <code>Mobile: 480px<br>Tablet: 768px<br>Desktop: 1024px</code>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

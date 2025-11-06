@@ -1,0 +1,138 @@
+/* Global reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Consolas', 'Monaco', monospace;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+/* Header section */
+header {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 3rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Cheat sheet grid container */
+.cheat-sheet {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Topic box styling */
+.topic-box {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.topic-box h2 {
+    color: #2c3e50;
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+
+.topic-box .description {
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+}
+
+.topic-box code {
+    display: block;
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    border-left: 4px solid #3498db;
+    color: #333;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    overflow-x: auto;
+}
+
+/* Hover effects */
+.topic-box:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.topic-box:hover h2,
+.topic-box:hover .description {
+    color: #ffffff;
+}
+
+.topic-box:hover h2 {
+    border-bottom-color: #ffffff;
+}
+
+.topic-box:hover code {
+    background: rgba(255, 255, 255, 0.9);
+    border-left-color: #ffffff;
+}
+
+/* Responsive design - single column below 700px */
+@media (max-width: 700px) {
+    .cheat-sheet {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+    
+    body {
+        padding: 1rem;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    header p {
+        font-size: 1rem;
+    }
+    
+    .topic-box {
+        padding: 1.2rem;
+    }
+    
+    .topic-box h2 {
+        font-size: 1.2rem;
+    }
+    
+    .topic-box code {
+        font-size: 0.85rem;
+        padding: 0.8rem;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 400px) {
+    .topic-box code {
+        font-size: 0.8rem;
+    }
+}

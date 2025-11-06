@@ -1,0 +1,146 @@
+/* Global reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+/* Header section */
+header {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 3rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.95;
+}
+
+/* Principles container using Grid */
+.principles-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Individual principle box */
+.principle-box {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.4s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.principle-box h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #f5576c;
+    padding-bottom: 0.5rem;
+    transition: color 0.4s ease;
+}
+
+.principle-box .definition {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    transition: color 0.4s ease;
+}
+
+/* Code example section */
+.code-example {
+    margin-top: 1rem;
+}
+
+.code-example h3 {
+    color: #333;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    transition: color 0.4s ease;
+}
+
+.code-example code {
+    display: block;
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 6px;
+    border-left: 4px solid #f5576c;
+    color: #333;
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    overflow-x: auto;
+}
+
+/* Hover effects - gradient background and text color change */
+.principle-box:hover {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.principle-box:hover h2,
+.principle-box:hover .definition,
+.principle-box:hover .code-example h3 {
+    color: #ffffff;
+}
+
+.principle-box:hover h2 {
+    border-bottom-color: #ffffff;
+}
+
+.principle-box:hover code {
+    background: rgba(255, 255, 255, 0.95);
+    border-left-color: #ffffff;
+}
+
+/* Responsive design - single column below 600px */
+@media (max-width: 600px) {
+    .principles-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    body {
+        padding: 1rem;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    header p {
+        font-size: 1rem;
+    }
+    
+    .principle-box {
+        padding: 1.5rem;
+    }
+    
+    .principle-box h2 {
+        font-size: 1.5rem;
+    }
+    
+    .code-example code {
+        font-size: 0.85rem;
+        padding: 0.8rem;
+    }
+}
