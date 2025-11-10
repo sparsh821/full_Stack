@@ -144,6 +144,6 @@ First Script: Wrote a script that runs on page load and responds to a button cli
 Created a simple page with a button — the script logs a message when the page loads and another when the button is clicked.
 
 > Next Goal
-Deepen my JS knowledge — focusing on operators, conditionals, and writing reusable functions.hi
+Deepen my JS knowledge — focusing on operators, conditionals, and writing reusable functions.
 
 
