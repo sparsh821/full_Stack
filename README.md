@@ -5,7 +5,7 @@ Hey there! I’m Sparsh — and this journal is where I’m tracking my progress
 Day 1: The Foundation — HTML & Web Concepts
 Date: 09/10/2025
 
-* What I Explored
+ What I Explored
 The Web’s Structure: Understood the classic 3-tier architecture — frontend, backend, and database — and how they interact.
 
 HTML Basics: Played around with essential tags like headings, paragraphs, tables, and images.
