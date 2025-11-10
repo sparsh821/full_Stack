@@ -19,10 +19,7 @@ Created a simple class timetable using HTML’s <table> tag and tested it live t
 
 Next Goal:
 Dig deeper into HTML structure — exploring block vs. inline elements, lists, and attributes.
-
-
-
-
+-------------------------------------------------------------------------------------------------
 Day 2: Structuring Content & Building Forms
 Date: 10/10/2025
 
@@ -40,7 +37,7 @@ Built a user registration form that collects basic info from users.
 
 Next Goal:
 Time to make things look beautiful — next up, CSS!
-
+---------------------------------------------------------------------------------------------------
 Day 3: Getting Hands-On with CSS & The Box Model
 Date: 13/10/2025
 
@@ -58,7 +55,7 @@ Styled a small webpage using an external CSS file, experimenting with spacing, b
 
 Next Goal:
 Learn Flexbox and CSS Grid — the modern layout superpowers.
-
+------------------------------------------------------------------------------------------------------
 Day 4: Layouts, Flexbox & Visual Touches
 Date: 30/10/2025
 
@@ -76,7 +73,7 @@ Designed a calculator interface using CSS Grid. Gave it a modern gradient backgr
 
 Next Goal:
 Step into responsive design — learn media queries and motion effects.
-
+--------------------------------------------------------------------------------------------------------
 Day 5: CSS Interactivity & Animations
 Date: 31/10/2025
 
@@ -94,7 +91,7 @@ Created a diagonal hover animation combining transform and transition. It felt s
 
 Next Goal:
 Master responsive design with media queries and CSS filters.
-
+---------------------------------------------------------------------------------------------------------
 Day 6: Jumping into Bootstrap
 Date: 03/11/2025
 
@@ -112,7 +109,7 @@ Built a responsive portfolio page using Bootstrap — it scaled perfectly across
 
 Next Goal:
 Review CSS and dive deeper into advanced Bootstrap components like carousels and modals.
-
+---------------------------------------------------------------------------------------------------------
 Day 7: Advanced Bootstrap & CSS Recap
 Date: 04/11/2025
 
@@ -130,7 +127,7 @@ Enhanced my portfolio site by integrating a Bootstrap carousel and a Contact Me 
 
 Next Goal:
 Time to bring logic into the mix — learning JavaScript next!
-
+---------------------------------------------------------------------------------------------------------
 Day 8: My First Steps with JavaScript
 Date: 05/11/2025
 
