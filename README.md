@@ -3,7 +3,9 @@ My Journey into the World of Web Development
 Hey there! I’m Sparsh — and this journal is where I’m tracking my progress as I learn web development from the ground up. I have been mentored by Sahil Sir and Deepak Sir from Bridglabz. It’s my way of documenting what I explore, build, and figure out along the way — from HTML basics to CSS styling, then onward to JavaScript and beyond. Let’s dive in
 
 Day 1: The Foundation — HTML & Web Concepts
+--------------------------------------------
 Date: 09/10/2025
+-------------------
 
 What I Explored:
 The Web’s Structure: Understood the classic 3-tier architecture — frontend, backend, and database — and how they interact.
@@ -19,10 +21,11 @@ Created a simple class timetable using HTML’s <table> tag and tested it live t
 
 Next Goal:
 Dig deeper into HTML structure — exploring block vs. inline elements, lists, and attributes.
--------------------------------------------------------------------------------------------------
-Day 2: Structuring Content & Building Forms
-Date: 10/10/2025
 
+Day 2: Structuring Content & Building Forms
+--------------------------------------------
+Date: 10/10/2025
+-----------------
 What I Explored:
 Block vs Inline: Finally made sense of the difference between the two.
 
@@ -37,10 +40,11 @@ Built a user registration form that collects basic info from users.
 
 Next Goal:
 Time to make things look beautiful — next up, CSS!
----------------------------------------------------------------------------------------------------
-Day 3: Getting Hands-On with CSS & The Box Model
-Date: 13/10/2025
 
+Day 3: Getting Hands-On with CSS & The Box Model
+-------------------------------------------------
+Date: 13/10/2025
+-----------------
 What I Explored:
 How to Apply CSS: Tried out inline, internal, and external styling methods.
 
@@ -55,10 +59,11 @@ Styled a small webpage using an external CSS file, experimenting with spacing, b
 
 Next Goal:
 Learn Flexbox and CSS Grid — the modern layout superpowers.
-------------------------------------------------------------------------------------------------------
-Day 4: Layouts, Flexbox & Visual Touches
-Date: 30/10/2025
 
+Day 4: Layouts, Flexbox & Visual Touches
+-----------------------------------------
+Date: 30/10/2025
+------------------
 What I Explored:
 Flexbox & Grid: Practiced building responsive layouts that automatically adjust.
 
@@ -73,10 +78,11 @@ Designed a calculator interface using CSS Grid. Gave it a modern gradient backgr
 
 Next Goal:
 Step into responsive design — learn media queries and motion effects.
---------------------------------------------------------------------------------------------------------
-Day 5: CSS Interactivity & Animations
-Date: 31/10/2025
 
+Day 5: CSS Interactivity & Animations
+--------------------------------------
+Date: 31/10/2025
+-----------------
 What I Explored:
 Pseudo-classes: Learned how to style elements dynamically with :hover, :focus, and :active.
 
@@ -91,10 +97,11 @@ Created a diagonal hover animation combining transform and transition. It felt s
 
 Next Goal:
 Master responsive design with media queries and CSS filters.
----------------------------------------------------------------------------------------------------------
-Day 6: Jumping into Bootstrap
-Date: 03/11/2025
 
+Day 6: Jumping into Bootstrap
+-----------------------------
+Date: 03/11/2025
+----------------
 What I Explored:
 Bootstrap Basics: Learned how this framework speeds up layout creation.
 
@@ -109,10 +116,11 @@ Built a responsive portfolio page using Bootstrap — it scaled perfectly across
 
 Next Goal:
 Review CSS and dive deeper into advanced Bootstrap components like carousels and modals.
----------------------------------------------------------------------------------------------------------
-Day 7: Advanced Bootstrap & CSS Recap
-Date: 04/11/2025
 
+Day 7: Advanced Bootstrap & CSS Recap
+-------------------------------------
+Date: 04/11/2025
+----------------
 What I Explored:
 CSS Refresher: Revisited Flexbox, Grid, and responsive techniques.
 
@@ -127,10 +135,11 @@ Enhanced my portfolio site by integrating a Bootstrap carousel and a Contact Me 
 
 Next Goal:
 Time to bring logic into the mix — learning JavaScript next!
----------------------------------------------------------------------------------------------------------
-Day 8: My First Steps with JavaScript
-Date: 05/11/2025
 
+Day 8: My First Steps with JavaScript
+-------------------------------------
+Date: 05/11/2025
+----------------
 What I Explored:
 What JS Does: Understood JavaScript as the “behavior” part of a webpage.
 
