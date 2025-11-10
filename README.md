@@ -20,6 +20,9 @@ Created a simple class timetable using HTML’s <table> tag and tested it live t
 Next Goal:
 Dig deeper into HTML structure — exploring block vs. inline elements, lists, and attributes.
 
+
+
+
 Day 2: Structuring Content & Building Forms
 Date: 10/10/2025
 
