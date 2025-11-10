@@ -1,6 +1,6 @@
 My Journey into the World of Web Development 
 
-Hey there! I’m Sparsh — and this journal is where I’m tracking my progress as I learn web development from the ground up. It’s my way of documenting what I explore, build, and figure out along the way — from HTML basics to CSS styling, then onward to JavaScript and beyond. Let’s dive in 🚀
+Hey there! I’m Sparsh — and this journal is where I’m tracking my progress as I learn web development from the ground up.I am mentored by Sahil Sir and Deepak Sir from Bridzlab. It’s my way of documenting what I explore, build, and figure out along the way — from HTML basics to CSS styling, then onward to JavaScript and beyond. Let’s dive in
 
 Day 1: The Foundation — HTML & Web Concepts
 Date: 09/10/2025
